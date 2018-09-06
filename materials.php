@@ -1,7 +1,7 @@
 <?php
   error_reporting(E_ALL);
 
-  $mats = file('../laser-mats.txt');
+  $mats = file('laser-mats.txt');
 
   if (isset($_GET["mode"])) {
     if ($_GET["mode"] == "mat" && isset($_GET["search"]) && $_GET["search"] != "") {

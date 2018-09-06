@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Open Sans';
-  background-image: url("imgs/dark_geometric_@2X.png");
+  background-image: url("../imgs/dark_geometric_@2X.png");
   
   background-attachment: fixed;
 }
@@ -44,7 +44,6 @@ a.skip:hover {
 a.skip:focus, #nav a:focus {
   /* background-color: black; */
 }
-
 
 #nav {
   background: linear-gradient(to bottom right, #A32D32, red);

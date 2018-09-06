@@ -23,7 +23,7 @@ function checkStatus(response) {
   let backShift;
   
   window.addEventListener("load", function() {
-    document.querySelector(":not(#nav)").addEventListener('click',closeDrops,true);
+    document.querySelector(":not(#nav)").addEventListener('click',closeDrops,true)
     let dropdowns = document.querySelectorAll("#nav > li");
     for (let i = 0; i < dropdowns.length; i++) {
       if (dropdowns[i].querySelectorAll(".dropdown").length == 1) {
@@ -66,7 +66,6 @@ function checkStatus(response) {
   });
   
   function toggleDrop() {
-    console.log(activeDrop);
     let drop = this.querySelector(".dropdown");
     if (drop != activeDrop) {
       this.querySelector(".dropdown").classList.add("expand");
@@ -113,7 +112,7 @@ function checkStatus(response) {
   }
   
   function shift() {
-    backShift += .02;
+    backShift += .03;
     if (backShift >= 100) {
       backShift = 0;
     }

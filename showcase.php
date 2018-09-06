@@ -7,11 +7,12 @@
       $root = substr($path, strrpos($path, "/") + 1);
       $root = substr($root, 0, strlen($root) - 4);
       $name = str_replace("-", " ", $root);
-      $img = array("path"=>$path,
+      $img = array("path"=>"../" . $path,
                    "name"=>$name,
                   );
       $json[] = $img;
     }
+    header('Content-Type: application/json');
     echo json_encode($json);
   }
 ?>

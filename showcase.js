@@ -35,11 +35,11 @@
     let showcases = document.querySelectorAll(".showcase");
     for (let i = 0; i < showcases.length; i++) {
       currShowcase = showcases[i];
-      fetch("showcase.php?dir=" + currShowcase.id, {credentials: 'include'})
+      fetch("../showcase.php?dir=" + currShowcase.id, {credentials: 'include'})
         .then(checkStatus)
         .then(JSON.parse)
         .then(populateProjs)
-        .catch(console.log)
+        .catch(console.log);
     }
   }
   
