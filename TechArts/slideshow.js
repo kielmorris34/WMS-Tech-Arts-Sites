@@ -49,7 +49,7 @@
   });
   
   function getImgs() {
-    fetch("get_slides.php")
+    fetch("get_slides.php", {credentials: 'include'})
       .then(checkStatus)
       .then(JSON.parse)
       .then(populateShow)
