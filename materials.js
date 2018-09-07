@@ -20,7 +20,7 @@
   
   function getMats(query) {
     let url = "../materials.php?mode=" + query;
-    fetch(url, {credentials: 'include'})
+    fetch(url)
       .then(checkStatus)
       .then(JSON.parse)
       .then(fillTable)

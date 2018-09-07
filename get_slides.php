@@ -1,7 +1,4 @@
 <?php
-  header('Access-Control-Allow-Headers: *');
-  header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS');
-
   $paths = glob("slideshow/*.jpg");
   shuffle($paths);
   $json = array();
