@@ -23,14 +23,14 @@ function checkStatus(response) {
   let backShift;
   
   window.addEventListener("load", function() {
-    document.querySelector(":not(#nav)").addEventListener('click',closeDrops,true)
+    document.querySelector(":not(#nav)").addEventListener('click',closeDrops,true);
     let dropdowns = document.querySelectorAll("#nav > li");
     for (let i = 0; i < dropdowns.length; i++) {
       if (dropdowns[i].querySelectorAll(".dropdown").length == 1) {
         dropdowns[i].addEventListener('click',toggleDrop,false);
         dropdowns[i].addEventListener('keydown', function(event) {
           if (event.which == 13) {
-            event.preventDefault();
+            //event.preventDefault();
             dropdowns[i].click();
           }
         }, true);

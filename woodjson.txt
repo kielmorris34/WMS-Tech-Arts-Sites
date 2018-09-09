@@ -1,0 +1,26 @@
+[
+{
+path: "../imgs/wood/Bench.jpg",
+name: "Bench"
+},
+{
+path: "../imgs/wood/Freeform-Box.jpg",
+name: "Freeform Box"
+},
+{
+path: "../imgs/wood/Owl-Clock.jpg",
+name: "Owl Clock"
+},
+{
+path: "../imgs/wood/Phone-Amplifier.jpg",
+name: "Phone Amplifier"
+},
+{
+path: "../imgs/wood/Rolling Lid Container Open.jpg",
+name: "Rolling Lid Container Open"
+},
+{
+path: "../imgs/wood/Rolling Lid Container.jpg",
+name: "Rolling Lid Container"
+}
+]

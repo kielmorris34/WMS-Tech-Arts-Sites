@@ -1,0 +1,10 @@
+[
+{
+path: "../imgs/cnc/Ridgeline Storm Cribbiage Board.jpg",
+name: "Ridgeline Storm Cribbiage Board"
+},
+{
+path: "../imgs/cnc/Seahawk & Mariners Cribbage Boards.jpg",
+name: "Seahawk & Mariners Cribbage Boards"
+}
+]

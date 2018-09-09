@@ -1,0 +1,114 @@
+[
+{
+path: "../imgs/3D/3D-Printed-Chess-Pieces.jpg",
+name: "3D Printed Chess Pieces"
+},
+{
+path: "../imgs/3D/Attorney-Card-Holder.jpg",
+name: "Attorney Card Holder"
+},
+{
+path: "../imgs/3D/Business-Card-Holder.jpg",
+name: "Business Card Holder"
+},
+{
+path: "../imgs/3D/Card-And-Pencil-Holder.jpg",
+name: "Card And Pencil Holder"
+},
+{
+path: "../imgs/3D/Cat.jpg",
+name: "Cat"
+},
+{
+path: "../imgs/3D/Flower-&-Vase.jpg",
+name: "Flower & Vase"
+},
+{
+path: "../imgs/3D/Freeform-Box-2.jpg",
+name: "Freeform Box 2"
+},
+{
+path: "../imgs/3D/Freeform-Box-3.jpg",
+name: "Freeform Box 3"
+},
+{
+path: "../imgs/3D/Freeform-Box-Horse.jpg",
+name: "Freeform Box Horse"
+},
+{
+path: "../imgs/3D/Freeform-Box-with-Flower-Knobs.jpg",
+name: "Freeform Box with Flower Knobs"
+},
+{
+path: "../imgs/3D/Freeform-Box.jpg",
+name: "Freeform Box"
+},
+{
+path: "../imgs/3D/Freeform-J-Box.jpg",
+name: "Freeform J Box"
+},
+{
+path: "../imgs/3D/Freeform-S-Box.jpg",
+name: "Freeform S Box"
+},
+{
+path: "../imgs/3D/Halo-Warthog-Trophy.jpg",
+name: "Halo Warthog Trophy"
+},
+{
+path: "../imgs/3D/Jiffy-Lube-Card-Holder.jpg",
+name: "Jiffy Lube Card Holder"
+},
+{
+path: "../imgs/3D/Opened-Freeform-S-Box.jpg",
+name: "Opened Freeform S Box"
+},
+{
+path: "../imgs/3D/Painted-Business-Card-Holder-2.jpg",
+name: "Painted Business Card Holder 2"
+},
+{
+path: "../imgs/3D/Painted-Business-Card-Holder.jpg",
+name: "Painted Business Card Holder"
+},
+{
+path: "../imgs/3D/Painted-Freeform-Box.jpg",
+name: "Painted Freeform Box"
+},
+{
+path: "../imgs/3D/Phone-Amplifier-with-Wood-Base.jpg",
+name: "Phone Amplifier with Wood Base"
+},
+{
+path: "../imgs/3D/Phone-Ampliflier.jpg",
+name: "Phone Ampliflier"
+},
+{
+path: "../imgs/3D/Picket-Fence-Card-Holder.jpg",
+name: "Picket Fence Card Holder"
+},
+{
+path: "../imgs/3D/Posable Dino.jpg",
+name: "Posable Dino"
+},
+{
+path: "../imgs/3D/Posable.jpg",
+name: "Posable"
+},
+{
+path: "../imgs/3D/Sandal Earrings.jpg",
+name: "Sandal Earrings"
+},
+{
+path: "../imgs/3D/Seahawk-Coaster-Holder.jpg",
+name: "Seahawk Coaster Holder"
+},
+{
+path: "../imgs/3D/Skater.jpg",
+name: "Skater"
+},
+{
+path: "../imgs/3D/Toothpick-Holder.jpg",
+name: "Toothpick Holder"
+}
+]

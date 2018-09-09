@@ -9,10 +9,65 @@
 "use strict";
 (function() {
   
-  let imgs;
+  // let imgs;
   let index;
   let slideInterval;
   
+  let slides = [
+                  {
+                  name: "../slideshow/student using crayon on lathe.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/Student using lathe.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/Student-working-at-computer.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/Smartboard-in-class.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/Chess board being engraved.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/Student using sketchup.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/students at printing laptop.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/Student using Illustrator.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/Student-sanding-frame.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/3D-printer and laser engraver.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/Laser engraver.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/computer lab.jpg",
+                  info: "no information found"
+                  },
+                  {
+                  name: "../slideshow/3D-Box.jpg",
+                  info: "no information found"
+                  }
+                ];
+
   window.addEventListener("load", function() {
     index = 0;
     getImgs();
@@ -49,12 +104,15 @@
   });
   
   function getImgs() {
+    /*
     fetch("../get_slides.php")
       .then(checkStatus)
-      //.then(function(response) { console.log(response)})
+      .then(console.log)
       .then(JSON.parse)
       .then(populateShow)
       .catch(console.log);
+    */
+    populateShow(slides);
   }
   
   function populateShow(response) {
@@ -91,9 +149,6 @@
       clearInterval(slideInterval);
     }
   }
-  
-  
-  
   
   
 })();
