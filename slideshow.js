@@ -13,60 +13,7 @@
   let index;
   let slideInterval;
   
-  let slides = [
-                  {
-                  name: "../slideshow/student using crayon on lathe.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/Student using lathe.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/Student-working-at-computer.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/Smartboard-in-class.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/Chess board being engraved.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/Student using sketchup.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/students at printing laptop.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/Student using Illustrator.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/Student-sanding-frame.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/3D-printer and laser engraver.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/Laser engraver.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/computer lab.jpg",
-                  info: "no information found"
-                  },
-                  {
-                  name: "../slideshow/3D-Box.jpg",
-                  info: "no information found"
-                  }
-                ];
+  let slides = [{"path":"..\/slideshow\/Laser engraver.jpg","name":"Laser engraver"},{"path":"..\/slideshow\/students at printing laptop.jpg","name":"students at printing laptop"},{"path":"..\/slideshow\/3D-Box.jpg","name":"3D Box"},{"path":"..\/slideshow\/Student-sanding-frame.jpg","name":"Student sanding frame"},{"path":"..\/slideshow\/Student using lathe.jpg","name":"Student using lathe"},{"path":"..\/slideshow\/Chess board being engraved.jpg","name":"Chess board being engraved"},{"path":"..\/slideshow\/student using crayon on lathe.jpg","name":"student using crayon on lathe"},{"path":"..\/slideshow\/computer lab.jpg","name":"computer lab"},{"path":"..\/slideshow\/Student using sketchup.jpg","name":"Student using sketchup"},{"path":"..\/slideshow\/Student using Illustrator.jpg","name":"Student using Illustrator"},{"path":"..\/slideshow\/3D-printer and laser engraver.jpg","name":"3D printer and laser engraver"},{"path":"..\/slideshow\/Student-working-at-computer.jpg","name":"Student working at computer"},{"path":"..\/slideshow\/Smartboard-in-class.jpg","name":"Smartboard in class"}];
 
   window.addEventListener("load", function() {
     index = 0;
@@ -120,8 +67,8 @@
       let li = document.createElement("li");
       li.classList.add("slide");
       let img = document.createElement("img");
-      img.src = response[i].name;
-      img.alt = response[i].info;
+      img.src = response[i].path;
+      img.alt = response[i].name;
       li.appendChild(img);
       $("slides").appendChild(li);
     }
